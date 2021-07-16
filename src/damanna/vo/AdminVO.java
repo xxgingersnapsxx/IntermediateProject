@@ -4,6 +4,9 @@ public class AdminVO {
 	private String adminId;
 	private String adminPw;
 
+	public AdminVO() {
+	}
+	
 	public AdminVO(String adminId, String adminPw) {
 		super();
 		this.adminId = adminId;
