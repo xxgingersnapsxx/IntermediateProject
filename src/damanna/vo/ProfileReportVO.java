@@ -16,15 +16,6 @@ public class ProfileReportVO {
 		this.blackReason = blackReason;
 		this.blackDate = blackDate;
 	}
-	public ProfileReportVO(String reportId, String memberReported, String memberId, String blackReason,
-			String blackDate) {
-		super();
-		this.reportId = reportId;
-		this.memberReported = memberReported;
-		this.memberId = memberId;
-		this.blackReason = blackReason;
-		this.blackDate = blackDate;
-	}
 
 	public String getReportId() {
 		return reportId;
