@@ -21,6 +21,10 @@ public class MemberVO {
 	private String memRej;
 	private String membershipYn;
 
+	// 기본 생성자
+	public MemberVO() {
+	}
+
 	// 회원 가입을 위한 생성자, DEFAULT 값이 있는 경우 자동입력되게 함
 	public MemberVO(int cityCode, String memberId, String memberPw, String memberNm, String memberBir,
 			String membmerMail, String memberHp, String memberGen, String memberImg1, String memberImg2,
@@ -42,7 +46,7 @@ public class MemberVO {
 		this.memberInsta = memberInsta;
 		this.profileMusic = profileMusic;
 	}
-	
+
 	public MemberVO(int cityCode, String memberId, String memberPw, String memberNm, String memberBir,
 			String membmerMail, String memberHp, String memberGen, String memberImg1, String memberImg2,
 			String matchType, String memberHobby, String profileIntro, String memberInsta, String profileMusic,
