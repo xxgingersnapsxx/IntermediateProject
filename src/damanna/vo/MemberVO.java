@@ -1,7 +1,7 @@
 package damanna.vo;
 
 public class MemberVO {
-	private String city_code;
+	private int city_code;
 	private String member_id;
 	private String member_pw;
 	private String member_nm;
@@ -25,7 +25,7 @@ public class MemberVO {
 	public MemberVO() {
 	}
 
-	public MemberVO(String city_code, String member_id, String member_pw, String member_nm, String member_bir,
+	public MemberVO(int city_code, String member_id, String member_pw, String member_nm, String member_bir,
 			String membmer_mail, String member_hp, String member_gen, String member_img1, String member_img2,
 			String match_type, String member_hobby, String profile_intro, String member_insta, String profile_music,
 			String mem_join, String approve_ny, String mem_rej, String membership_yn) {
@@ -51,11 +51,11 @@ public class MemberVO {
 		this.membership_yn = membership_yn;
 	}
 
-	public String getCity_code() {
+	public int getCity_code() {
 		return city_code;
 	}
 
-	public void setCity_code(String city_code) {
+	public void setCity_code(int city_code) {
 		this.city_code = city_code;
 	}
 
