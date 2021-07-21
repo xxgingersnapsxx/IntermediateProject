@@ -1,90 +1,49 @@
 package damanna.vo;
 
 public class PaymentVO {
-	private String paymentCode;
-	private String memberId;
-	private String paymentType;
-	private String paymentAmount;
-	private String eventCode;
-	private String paymentDate;
-	private String membershipSt;
-	private String membershipEnd;
-
-	public PaymentVO(String paymentCode, String memberId, String paymentType, String paymentAmount, String eventCode,
-			String paymentDate, String membershipSt, String membershipEnd) {
-		super();
-		this.paymentCode = paymentCode;
-		this.memberId = memberId;
-		this.paymentType = paymentType;
-		this.paymentAmount = paymentAmount;
-		this.eventCode = eventCode;
-		this.paymentDate = paymentDate;
-		this.membershipSt = membershipSt;
-		this.membershipEnd = membershipEnd;
+	private String payment_code;
+	private String member_id;
+	private String payment_amount;
+	private String event_code;
+	private String payment_date;
+	private String membership_end;
+	
+	public String getPayment_code() {
+		return payment_code;
+	}
+	public void setPayment_code(String payment_code) {
+		this.payment_code = payment_code;
+	}
+	public String getMember_id() {
+		return member_id;
+	}
+	public void setMember_id(String member_id) {
+		this.member_id = member_id;
+	}
+	public String getPayment_amount() {
+		return payment_amount;
+	}
+	public void setPayment_amount(String payment_amount) {
+		this.payment_amount = payment_amount;
+	}
+	public String getEvent_code() {
+		return event_code;
+	}
+	public void setEvent_code(String event_code) {
+		this.event_code = event_code;
+	}
+	public String getPayment_date() {
+		return payment_date;
+	}
+	public void setPayment_date(String payment_date) {
+		this.payment_date = payment_date;
+	}
+	public String getMembership_end() {
+		return membership_end;
+	}
+	public void setMembership_end(String membership_end) {
+		this.membership_end = membership_end;
 	}
 
-	public String getPaymentCode() {
-		return paymentCode;
-	}
-
-	public void setPaymentCode(String paymentCode) {
-		this.paymentCode = paymentCode;
-	}
-
-	public String getMemberId() {
-		return memberId;
-	}
-
-	public void setMemberId(String memberId) {
-		this.memberId = memberId;
-	}
-
-	public String getPaymentType() {
-		return paymentType;
-	}
-
-	public void setPaymentType(String paymentType) {
-		this.paymentType = paymentType;
-	}
-
-	public String getPaymentAmount() {
-		return paymentAmount;
-	}
-
-	public void setPaymentAmount(String paymentAmount) {
-		this.paymentAmount = paymentAmount;
-	}
-
-	public String getEventCode() {
-		return eventCode;
-	}
-
-	public void setEventCode(String eventCode) {
-		this.eventCode = eventCode;
-	}
-
-	public String getPaymentDate() {
-		return paymentDate;
-	}
-
-	public void setPaymentDate(String paymentDate) {
-		this.paymentDate = paymentDate;
-	}
-
-	public String getMembershipSt() {
-		return membershipSt;
-	}
-
-	public void setMembershipSt(String membershipSt) {
-		this.membershipSt = membershipSt;
-	}
-
-	public String getMembershipEnd() {
-		return membershipEnd;
-	}
-
-	public void setMembershipEnd(String membershipEnd) {
-		this.membershipEnd = membershipEnd;
-	}
-
+	
 }
