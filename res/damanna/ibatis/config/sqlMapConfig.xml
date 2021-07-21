@@ -59,5 +59,8 @@
 <!-- 	  <sqlMap resource="damanna/ibatis/mapping/cityBoardComment.xml"/> -->
 	  <sqlMap resource="damanna/ibatis/mapping/member.xml"/>
 	  <sqlMap resource="damanna/ibatis/mapping/noticeBoard.xml"/>
+	  <sqlMap resource="damanna/ibatis/mapping/ad.xml"/>
+	  <sqlMap resource="damanna/ibatis/mapping/payment.xml"/>
+	  <sqlMap resource="damanna/ibatis/mapping/chat.xml"/>
 	  
 </sqlMapConfig>
