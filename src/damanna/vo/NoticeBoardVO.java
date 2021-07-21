@@ -10,7 +10,6 @@ public class NoticeBoardVO {
 	private String notice_drop;
 	
 	public NoticeBoardVO() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public NoticeBoardVO(int notice_id, String admin_id, String notice_title, String notice_content, String notice_date,
