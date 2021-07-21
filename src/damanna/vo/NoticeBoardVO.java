@@ -1,80 +1,88 @@
 package damanna.vo;
 
 public class NoticeBoardVO {
-	private int noticeId;
-	private String adminId;
-	private String noticeTitle;
-	private String noticeDate;
-	private String noticeContent;
-	private int noticeCount;
-	private String noticeDrop;
+	private int notice_id;
+	private String admin_id;
+	private String notice_title;
+	private String notice_content;
+	private String notice_date;
+	private int notice_count;
+	private String notice_drop;
+	
+	public NoticeBoardVO() {
+		// TODO Auto-generated constructor stub
+	}
 
-	public NoticeBoardVO(int noticeId, String adminId, String noticeTitle, String noticeDate, String noticeContent,
-			int noticeCount, String noticeDrop) {
+	public NoticeBoardVO(int notice_id, String admin_id, String notice_title, String notice_content, String notice_date,
+			int notice_count, String notice_drop) {
 		super();
-		this.noticeId = noticeId;
-		this.adminId = adminId;
-		this.noticeTitle = noticeTitle;
-		this.noticeDate = noticeDate;
-		this.noticeContent = noticeContent;
-		this.noticeCount = noticeCount;
-		this.noticeDrop = noticeDrop;
+		this.notice_id = notice_id;
+		this.admin_id = admin_id;
+		this.notice_title = notice_title;
+		this.notice_content = notice_content;
+		this.notice_date = notice_date;
+		this.notice_count = notice_count;
+		this.notice_drop = notice_drop;
 	}
 
-	public int getNoticeId() {
-		return noticeId;
+	public int getNotice_id() {
+		return notice_id;
 	}
 
-	public void setNoticeId(int noticeId) {
-		this.noticeId = noticeId;
+	public void setNotice_id(int notice_id) {
+		this.notice_id = notice_id;
 	}
 
-	public String getAdminId() {
-		return adminId;
+	public String getAdmin_id() {
+		return admin_id;
 	}
 
-	public void setAdminId(String adminId) {
-		this.adminId = adminId;
+	public void setAdmin_id(String admin_id) {
+		this.admin_id = admin_id;
 	}
 
-	public String getNoticeTitle() {
-		return noticeTitle;
+	public String getNotice_title() {
+		return notice_title;
 	}
 
-	public void setNoticeTitle(String noticeTitle) {
-		this.noticeTitle = noticeTitle;
+	public void setNotice_title(String notice_title) {
+		this.notice_title = notice_title;
 	}
 
-	public String getNoticeDate() {
-		return noticeDate;
+	public String getNotice_content() {
+		return notice_content;
 	}
 
-	public void setNoticeDate(String noticeDate) {
-		this.noticeDate = noticeDate;
+	public void setNotice_content(String notice_content) {
+		this.notice_content = notice_content;
 	}
 
-	public String getNoticeContent() {
-		return noticeContent;
+	public String getNotice_date() {
+		return notice_date;
 	}
 
-	public void setNoticeContent(String noticeContent) {
-		this.noticeContent = noticeContent;
+	public void setNotice_date(String notice_date) {
+		this.notice_date = notice_date;
 	}
 
-	public int getNoticeCount() {
-		return noticeCount;
+	public int getNotice_count() {
+		return notice_count;
 	}
 
-	public void setNoticeCount(int noticeCount) {
-		this.noticeCount = noticeCount;
+	public void setNotice_count(int notice_count) {
+		this.notice_count = notice_count;
 	}
 
-	public String getNoticeDrop() {
-		return noticeDrop;
+	public String getNotice_drop() {
+		return notice_drop;
 	}
 
-	public void setNoticeDrop(String noticeDrop) {
-		this.noticeDrop = noticeDrop;
+	public void setNotice_drop(String notice_drop) {
+		this.notice_drop = notice_drop;
 	}
+
+
+
+
 
 }

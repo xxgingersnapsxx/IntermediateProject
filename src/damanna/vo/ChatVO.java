@@ -1,110 +1,78 @@
 package damanna.vo;
 
 public class ChatVO {
-	private String chatId;
-	private int chatNo;
-	private String memberId;
-	private String memberPartner;
-	private String chatContent;
-	private String chatTime;
-	private String chatState;
-	private String chatDelny;
-	private String chatFiletype;
-	private String chatFileroute;
-
-	public ChatVO(String chatId, int chatNo, String memberId, String memberPartner, String chatContent, String chatTime,
-			String chatState, String chatDelny, String chatFiletype, String chatFileroute) {
-		super();
-		this.chatId = chatId;
-		this.chatNo = chatNo;
-		this.memberId = memberId;
-		this.memberPartner = memberPartner;
-		this.chatContent = chatContent;
-		this.chatTime = chatTime;
-		this.chatState = chatState;
-		this.chatDelny = chatDelny;
-		this.chatFiletype = chatFiletype;
-		this.chatFileroute = chatFileroute;
+	private String chat_id;
+	private int chat_no;
+	private String member_id;
+	private String member_partner;
+	private String chat_content;
+	private String chat_time;
+	private String chat_state;
+	private String chat_delny;
+	private String chat_filetype;
+	private String chat_fileroute;
+	
+	public String getChat_id() {
+		return chat_id;
+	}
+	public void setChat_id(String chat_id) {
+		this.chat_id = chat_id;
+	}
+	public int getChat_no() {
+		return chat_no;
+	}
+	public void setChat_no(int chat_no) {
+		this.chat_no = chat_no;
+	}
+	public String getMember_id() {
+		return member_id;
+	}
+	public void setMember_id(String member_id) {
+		this.member_id = member_id;
+	}
+	public String getMember_partner() {
+		return member_partner;
+	}
+	public void setMember_partner(String member_partner) {
+		this.member_partner = member_partner;
+	}
+	public String getChat_content() {
+		return chat_content;
+	}
+	public void setChat_content(String chat_content) {
+		this.chat_content = chat_content;
+	}
+	public String getChat_time() {
+		return chat_time;
+	}
+	public void setChat_time(String chat_time) {
+		this.chat_time = chat_time;
+	}
+	public String getChat_state() {
+		return chat_state;
+	}
+	public void setChat_state(String chat_state) {
+		this.chat_state = chat_state;
+	}
+	public String getChat_delny() {
+		return chat_delny;
+	}
+	public void setChat_delny(String chat_delny) {
+		this.chat_delny = chat_delny;
+	}
+	public String getChat_filetype() {
+		return chat_filetype;
+	}
+	public void setChat_filetype(String chat_filetype) {
+		this.chat_filetype = chat_filetype;
+	}
+	public String getChat_fileroute() {
+		return chat_fileroute;
+	}
+	public void setChat_fileroute(String chat_fileroute) {
+		this.chat_fileroute = chat_fileroute;
 	}
 
-	public String getChatId() {
-		return chatId;
-	}
-
-	public void setChatId(String chatId) {
-		this.chatId = chatId;
-	}
-
-	public int getChatNo() {
-		return chatNo;
-	}
-
-	public void setChatNo(int chatNo) {
-		this.chatNo = chatNo;
-	}
-
-	public String getMemberId() {
-		return memberId;
-	}
-
-	public void setMemberId(String memberId) {
-		this.memberId = memberId;
-	}
-
-	public String getMemberPartner() {
-		return memberPartner;
-	}
-
-	public void setMemberPartner(String memberPartner) {
-		this.memberPartner = memberPartner;
-	}
-
-	public String getChatContent() {
-		return chatContent;
-	}
-
-	public void setChatContent(String chatContent) {
-		this.chatContent = chatContent;
-	}
-
-	public String getChatTime() {
-		return chatTime;
-	}
-
-	public void setChatTime(String chatTime) {
-		this.chatTime = chatTime;
-	}
-
-	public String getChatState() {
-		return chatState;
-	}
-
-	public void setChatState(String chatState) {
-		this.chatState = chatState;
-	}
-
-	public String getChatDelny() {
-		return chatDelny;
-	}
-
-	public void setChatDelny(String chatDelny) {
-		this.chatDelny = chatDelny;
-	}
-
-	public String getChatFiletype() {
-		return chatFiletype;
-	}
-
-	public void setChatFiletype(String chatFiletype) {
-		this.chatFiletype = chatFiletype;
-	}
-
-	public String getChatFileroute() {
-		return chatFileroute;
-	}
-
-	public void setChatFileroute(String chatFileroute) {
-		this.chatFileroute = chatFileroute;
-	}
+	
 
 }
