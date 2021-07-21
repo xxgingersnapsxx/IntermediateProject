@@ -1,228 +1,207 @@
 package damanna.vo;
 
 public class MemberVO {
-	private int cityCode;
-	private String memberId;
-	private String memberPw;
-	private String memberNm;
-	private String memberBir;
-	private String membmerMail;
-	private String memberHp;
-	private String memberGen;
-	private String memberImg1;
-	private String memberImg2;
-	private String matchType;
-	private String memberHobby;
-	private String profileIntro;
-	private String memberInsta;
-	private String profileMusic;
-	private String memJoin;
-	private String approveNy;
-	private String memRej;
-	private String membershipYn;
+	private String city_code;
+	private String member_id;
+	private String member_pw;
+	private String member_nm;
+	private String member_bir;
+	private String membmer_mail;
+	private String member_hp;
+	private String member_gen;
+	private String member_img1;
+	private String member_img2;
+	private String match_type;
+	private String member_hobby;
+	private String profile_intro;
+	private String member_insta;
+	private String profile_music;
+	private String mem_join;
+	private String approve_ny;
+	private String mem_rej;
+	private String membership_yn;
 
 	// 기본 생성자
 	public MemberVO() {
 	}
 
-	// 회원 가입을 위한 생성자, DEFAULT 값이 있는 경우 자동입력되게 함
-	public MemberVO(int cityCode, String memberId, String memberPw, String memberNm, String memberBir,
-			String membmerMail, String memberHp, String memberGen, String memberImg1, String memberImg2,
-			String matchType, String memberHobby, String profileIntro, String memberInsta, String profileMusic) {
+	public MemberVO(String city_code, String member_id, String member_pw, String member_nm, String member_bir,
+			String membmer_mail, String member_hp, String member_gen, String member_img1, String member_img2,
+			String match_type, String member_hobby, String profile_intro, String member_insta, String profile_music,
+			String mem_join, String approve_ny, String mem_rej, String membership_yn) {
 		super();
-		this.cityCode = cityCode;
-		this.memberId = memberId;
-		this.memberPw = memberPw;
-		this.memberNm = memberNm;
-		this.memberBir = memberBir;
-		this.membmerMail = membmerMail;
-		this.memberHp = memberHp;
-		this.memberGen = memberGen;
-		this.memberImg1 = memberImg1;
-		this.memberImg2 = memberImg2;
-		this.matchType = matchType;
-		this.memberHobby = memberHobby;
-		this.profileIntro = profileIntro;
-		this.memberInsta = memberInsta;
-		this.profileMusic = profileMusic;
+		this.city_code = city_code;
+		this.member_id = member_id;
+		this.member_pw = member_pw;
+		this.member_nm = member_nm;
+		this.member_bir = member_bir;
+		this.membmer_mail = membmer_mail;
+		this.member_hp = member_hp;
+		this.member_gen = member_gen;
+		this.member_img1 = member_img1;
+		this.member_img2 = member_img2;
+		this.match_type = match_type;
+		this.member_hobby = member_hobby;
+		this.profile_intro = profile_intro;
+		this.member_insta = member_insta;
+		this.profile_music = profile_music;
+		this.mem_join = mem_join;
+		this.approve_ny = approve_ny;
+		this.mem_rej = mem_rej;
+		this.membership_yn = membership_yn;
 	}
 
-	public MemberVO(int cityCode, String memberId, String memberPw, String memberNm, String memberBir,
-			String membmerMail, String memberHp, String memberGen, String memberImg1, String memberImg2,
-			String matchType, String memberHobby, String profileIntro, String memberInsta, String profileMusic,
-			String memJoin, String approveNy, String memRej, String membershipYn) {
-		super();
-		this.cityCode = cityCode;
-		this.memberId = memberId;
-		this.memberPw = memberPw;
-		this.memberNm = memberNm;
-		this.memberBir = memberBir;
-		this.membmerMail = membmerMail;
-		this.memberHp = memberHp;
-		this.memberGen = memberGen;
-		this.memberImg1 = memberImg1;
-		this.memberImg2 = memberImg2;
-		this.matchType = matchType;
-		this.memberHobby = memberHobby;
-		this.profileIntro = profileIntro;
-		this.memberInsta = memberInsta;
-		this.profileMusic = profileMusic;
-		this.memJoin = memJoin;
-		this.approveNy = approveNy;
-		this.memRej = memRej;
-		this.membershipYn = membershipYn;
+	public String getCity_code() {
+		return city_code;
 	}
 
-	public int getCityCode() {
-		return cityCode;
+	public void setCity_code(String city_code) {
+		this.city_code = city_code;
 	}
 
-	public void setCityCode(int cityCode) {
-		this.cityCode = cityCode;
+	public String getMember_id() {
+		return member_id;
 	}
 
-	public String getMemberId() {
-		return memberId;
+	public void setMember_id(String member_id) {
+		this.member_id = member_id;
 	}
 
-	public void setMemberId(String memberId) {
-		this.memberId = memberId;
+	public String getMember_pw() {
+		return member_pw;
 	}
 
-	public String getMemberPw() {
-		return memberPw;
+	public void setMember_pw(String member_pw) {
+		this.member_pw = member_pw;
 	}
 
-	public void setMemberPw(String memberPw) {
-		this.memberPw = memberPw;
+	public String getMember_nm() {
+		return member_nm;
 	}
 
-	public String getMemberNm() {
-		return memberNm;
+	public void setMember_nm(String member_nm) {
+		this.member_nm = member_nm;
 	}
 
-	public void setMemberNm(String memberNm) {
-		this.memberNm = memberNm;
+	public String getMember_bir() {
+		return member_bir;
 	}
 
-	public String getMemberBir() {
-		return memberBir;
+	public void setMember_bir(String member_bir) {
+		this.member_bir = member_bir;
 	}
 
-	public void setMemberBir(String memberBir) {
-		this.memberBir = memberBir;
+	public String getMembmer_mail() {
+		return membmer_mail;
 	}
 
-	public String getMembmerMail() {
-		return membmerMail;
+	public void setMembmer_mail(String membmer_mail) {
+		this.membmer_mail = membmer_mail;
 	}
 
-	public void setMembmerMail(String membmerMail) {
-		this.membmerMail = membmerMail;
+	public String getMember_hp() {
+		return member_hp;
 	}
 
-	public String getMemberHp() {
-		return memberHp;
+	public void setMember_hp(String member_hp) {
+		this.member_hp = member_hp;
 	}
 
-	public void setMemberHp(String memberHp) {
-		this.memberHp = memberHp;
+	public String getMember_gen() {
+		return member_gen;
 	}
 
-	public String getMemberGen() {
-		return memberGen;
+	public void setMember_gen(String member_gen) {
+		this.member_gen = member_gen;
 	}
 
-	public void setMemberGen(String memberGen) {
-		this.memberGen = memberGen;
+	public String getMember_img1() {
+		return member_img1;
 	}
 
-	public String getMemberImg1() {
-		return memberImg1;
+	public void setMember_img1(String member_img1) {
+		this.member_img1 = member_img1;
 	}
 
-	public void setMemberImg1(String memberImg1) {
-		this.memberImg1 = memberImg1;
+	public String getMember_img2() {
+		return member_img2;
 	}
 
-	public String getMemberImg2() {
-		return memberImg2;
+	public void setMember_img2(String member_img2) {
+		this.member_img2 = member_img2;
 	}
 
-	public void setMemberImg2(String memberImg2) {
-		this.memberImg2 = memberImg2;
+	public String getMatch_type() {
+		return match_type;
 	}
 
-	public String getMatchType() {
-		return matchType;
+	public void setMatch_type(String match_type) {
+		this.match_type = match_type;
 	}
 
-	public void setMatchType(String matchType) {
-		this.matchType = matchType;
+	public String getMember_hobby() {
+		return member_hobby;
 	}
 
-	public String getMemberHobby() {
-		return memberHobby;
+	public void setMember_hobby(String member_hobby) {
+		this.member_hobby = member_hobby;
 	}
 
-	public void setMemberHobby(String memberHobby) {
-		this.memberHobby = memberHobby;
+	public String getProfile_intro() {
+		return profile_intro;
 	}
 
-	public String getProfileIntro() {
-		return profileIntro;
+	public void setProfile_intro(String profile_intro) {
+		this.profile_intro = profile_intro;
 	}
 
-	public void setProfileIntro(String profileIntro) {
-		this.profileIntro = profileIntro;
+	public String getMember_insta() {
+		return member_insta;
 	}
 
-	public String getMemberInsta() {
-		return memberInsta;
+	public void setMember_insta(String member_insta) {
+		this.member_insta = member_insta;
 	}
 
-	public void setMemberInsta(String memberInsta) {
-		this.memberInsta = memberInsta;
+	public String getProfile_music() {
+		return profile_music;
 	}
 
-	public String getProfileMusic() {
-		return profileMusic;
+	public void setProfile_music(String profile_music) {
+		this.profile_music = profile_music;
 	}
 
-	public void setProfileMusic(String profileMusic) {
-		this.profileMusic = profileMusic;
+	public String getMem_join() {
+		return mem_join;
 	}
 
-	public String getMemJoin() {
-		return memJoin;
+	public void setMem_join(String mem_join) {
+		this.mem_join = mem_join;
 	}
 
-	public void setMemJoin(String memJoin) {
-		this.memJoin = memJoin;
+	public String getApprove_ny() {
+		return approve_ny;
 	}
 
-	public String getApproveNy() {
-		return approveNy;
+	public void setApprove_ny(String approve_ny) {
+		this.approve_ny = approve_ny;
 	}
 
-	public void setApproveNy(String approveNy) {
-		this.approveNy = approveNy;
+	public String getMem_rej() {
+		return mem_rej;
 	}
 
-	public String getMemRej() {
-		return memRej;
+	public void setMem_rej(String mem_rej) {
+		this.mem_rej = mem_rej;
 	}
 
-	public void setMemRej(String memRej) {
-		this.memRej = memRej;
+	public String getMembership_yn() {
+		return membership_yn;
 	}
 
-	public String getMembershipYn() {
-		return membershipYn;
+	public void setMembership_yn(String membership_yn) {
+		this.membership_yn = membership_yn;
 	}
-
-	public void setMembershipYn(String membershipYn) {
-		this.membershipYn = membershipYn;
-	}
-
+	
+	
 }
