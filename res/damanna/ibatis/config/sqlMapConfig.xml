@@ -4,7 +4,7 @@
 	"http://ibatis.apache.org/dtd/sql-map-config-2.dtd">
 <sqlMapConfig>
 	<!-- DB와 연결하는 정보를 properties파일에 설정해 놓고 이 properties파일의 내용을 읽어올 수 있도록 설정한다. -->
-	<properties resource="damanna/config/dbinfo.properties"/>
+	<properties resource="damanna/ibatis/config/dbinfo.properties"/>
 	
 	<!-- 각각의 sqlMap파일의 네임스페이스와 ID속성 값을 연결해서 실행할 쿼리문을 선택한다. -->
 	<settings useStatementNamespaces="true"/>
@@ -54,8 +54,10 @@
 	 	형식) <sqlMap resource="경로명/파일명.xml"/>
 	  -->
 	  
-	  <sqlMap resource="damanna/ibatis/mapping/admin.xml"/>
-	  <sqlMap resource="damanna/ibatis/mapping/cityBoard.xml"/>
-	  <sqlMap resource="damanna/ibatis/mapping/cityBoardComment.xml"/>
+<!-- 	  <sqlMap resource="damanna/ibatis/mapping/admin.xml"/> -->
+<!-- 	  <sqlMap resource="damanna/ibatis/mapping/cityBoard.xml"/> -->
+<!-- 	  <sqlMap resource="damanna/ibatis/mapping/cityBoardComment.xml"/> -->
 	  <sqlMap resource="damanna/ibatis/mapping/member.xml"/>
+	  <sqlMap resource="damanna/ibatis/mapping/noticeBoard.xml"/>
+	  
 </sqlMapConfig>
