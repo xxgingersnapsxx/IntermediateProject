@@ -1,18 +1,18 @@
-#signup{
+.signup{
 	position:relative;
-	width: 500px;
-	height: 300px;
+	width: 50%;
+	height: 800px;
 	float: center;
 }
-#signupForm {
-  position:absolute;
+.singupForm {
+  position:relative;
   width:300px;
   height:400px;
   padding: 30px, 20px;
   background-color:#FFFFFF;
   text-align:center;
-  top:50%;
-  left:50%;
+  top:25%;
+  left:100%;
    transform: translate(-50%,-50%); 
   border-radius: 15px;
 }
@@ -130,21 +130,6 @@
   height:25px;
   background: none;
 }
-.hpnumberForm{
-  border-bottom: 2px solid #adadad;
-  margin: 30px;
-  padding: 10px 10px;
-}
-
-.hpnumber {
-  width: 100%;
-  border:none;
-  outline:none;
-  color: #636e72;
-  font-size:16px;
-  height:25px;
-  background: none;
-}
 .instaForm{
   border-bottom: 2px solid #adadad;
   margin: 30px;
@@ -165,7 +150,7 @@
   margin: 30px;
   padding: 10px 10px;
 }
-.sexualityForm{
+.matchTypeForm{
   border-bottom: 2px solid #adadad;
   margin: 30px;
   padding: 10px 10px;
@@ -209,4 +194,9 @@
 
 .bottomText {
   text-align: center;
+}
+
+.must{
+	font-size: 14;
+	color:#424242;
 }

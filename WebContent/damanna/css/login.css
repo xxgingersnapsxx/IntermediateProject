@@ -1,5 +1,5 @@
 
-/* ·Î±×ÀÎ Æû */
+/* 	ë¡œê·¸ì¸í¼ */
 .loginForm {
   position:absolute;
   width:300px;
@@ -80,9 +80,13 @@
 	width: 100%;
 	height: auto;
 	position: static;
+		padding-right: 15px;
+    padding-left: 15px;
 	
 }
-/* .backgroundimage{ */
-/* 	width: 100%; */
-/* 	height: auto; */
-/* } */
+.backgroundimage{
+
+	background-size: cover;
+	resize: both;
+	
+}
