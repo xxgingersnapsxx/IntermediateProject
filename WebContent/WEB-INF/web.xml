@@ -9,16 +9,4 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  
-  <!-- 서블릿 클래스 등록하기 -->
-  <servlet>
-  	<servlet-name>servletTest</servlet-name>
-  	<servlet-class>kr.or.ddit.basic.ServletTest01</servlet-class>
-  </servlet>
-  
-  <!-- 서블릿 URL 매핑 등록하기 -->
-  <servlet-mapping>
-  	<servlet-name>servletTest</servlet-name>
-  	<url-pattern>/servletTest01.do</url-pattern>
-  </servlet-mapping>
 </web-app>
