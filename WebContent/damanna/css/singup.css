@@ -1,202 +1,85 @@
-.signup{
-	position:relative;
-	width: 50%;
-	height: 800px;
-	float: center;
-}
-.singupForm {
-  position:relative;
-  width:300px;
-  height:400px;
-  padding: 30px, 20px;
-  background-color:#FFFFFF;
-  text-align:center;
-  top:25%;
-  left:100%;
-   transform: translate(-50%,-50%); 
-  border-radius: 15px;
+body {
+  background-image: url("https://images.unsplash.com/photo-1529425689619-bf11828c26fb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=971&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
-.singupForm h2{
-  text-align: center;
-  margin: 30px;
+a {
+  text-decoration: none;
 }
 
-.idForm{
-  border-bottom: 2px solid #adadad;
-  margin: 30px;
-  padding: 10px 10px;
+fieldset {
+  margin-left: 40px;
 }
 
-.id {
-  width: 100%;
-  border:none;
-  outline:none;
-  color: #636e72;
-  font-size:16px;
-  height:25px;
-  background: none;
-}
-
-.passForm{
-  border-bottom: 2px solid #adadad;
-  margin: 30px;
-  padding: 10px 10px;
-}
-
-
-.pass {
-  width: 100%;
-  border:none;
-  outline:none;
-  color: #636e72;
-  font-size:16px;
-  height:25px;
-  background: none;
-}
-
-.nameForm{
-  border-bottom: 2px solid #adadad;
-  margin: 30px;
-  padding: 10px 10px;
-}
-
-.name {
-  width: 100%;
-  border:none;
-  outline:none;
-  color: #636e72;
-  font-size:16px;
-  height:25px;
-  background: none;
-}
-.birForm{
-  border-bottom: 2px solid #adadad;
-  margin: 30px;
-  padding: 10px 10px;
-}
-
-/* .bir { */
-/*   width: 10%; */
-/*   border:none; */
-/*   outline:none; */
-/*   color: #636e72; */
-/*   font-size:16px; */
-/*   height:25px; */
-/*   background: none; */
-/* } */
-.mailForm{
-  border-bottom: 2px solid #adadad;
-  margin: 30px;
-  padding: 10px 10px;
-}
-
-.mail {
-  width: 100%;
-  border:none;
-  outline:none;
-  color: #636e72;
-  font-size:16px;
-  height:25px;
-  background: none;
-}
-.addrForm{
-  border-bottom: 2px solid #adadad;
-  margin: 30px;
-  padding: 10px 10px;
-}
-
-.addr {
-  width: 100%;
-  border:none;
-  outline:none;
-  color: #636e72;
-  font-size:16px;
-  height:25px;
-  background: none;
-}
-.hpnumberForm{
-  border-bottom: 2px solid #adadad;
-  margin: 30px;
-  padding: 10px 10px;
-}
-
-.hpnumber {
-  width: 100%;
-  border:none;
-  outline:none;
-  color: #636e72;
-  font-size:16px;
-  height:25px;
-  background: none;
-}
-.instaForm{
-  border-bottom: 2px solid #adadad;
-  margin: 30px;
-  padding: 10px 10px;
-}
-
-.insta {
-  width: 100%;
-  border:none;
-  outline:none;
-  color: #636e72;
-  font-size:16px;
-  height:25px;
-  background: none;
-}
-.vaccineForm{
-  border-bottom: 2px solid #adadad;
-  margin: 30px;
-  padding: 10px 10px;
-}
-.matchTypeForm{
-  border-bottom: 2px solid #adadad;
-  margin: 30px;
-  padding: 10px 10px;
-}
-.ageForm{
-  border-bottom: 2px solid #adadad;
-  margin: 30px;
-  padding: 10px 10px;
-}
-.hobbyForm{
-  border-bottom: 2px solid #adadad;
-  margin: 30px;
-  padding: 10px 10px;
-}
-
-
-
-
-
-.btn {
-  position:relative;
-  left:40%;
-  transform: translateX(-50%);
-  margin-bottom: 40px;
-  width:80%;
-  height:40px;
-  background: linear-gradient(125deg,#81ecec,#6c5ce7,#81ecec);
-  background-position: left;
-  background-size: 200%;
-  color:white;
+#title {
+  font-size: 60px;
   font-weight: bold;
-  border:none;
-  cursor:pointer;
-  transition: 0.4s;
-  display:inline;
-}
-
-.btn:hover {
-  background-position: right;
-}
-
-.bottomText {
   text-align: center;
+  font-family: Tims;
+  padding: 0.3em 0em 0.3em 0em;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  color: rgb(138, 39, 88);
 }
 
-.must{
-	font-size: 14;
-	color:#424242;
+#description {
+  font-size: 20px;
+  font-family: Times;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+} /*
+.form-row{
+  display: flex;
+}
+form-row input{
+  flex: 1;
+}*/
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding: auto;
+}
+#survay-form label {
+  display: block;
+  margin-bottom: px;
+  padding: 0px 0px 10px 0px;
+}
+
+#survay-form input,
+#survay-form button,
+#survay-form textarea {
+  border: 3px solid #d1d1d1;
+  border-radius: 5px;
+  padding: 7px;
+  background: #e4ebf7;
+}
+
+div {
+  margin-top: 20px;
+}
+
+.card {
+  background: transparent;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #e1e1e1;
+  margin-top: 20px;
+  background-color: white;
+  background-color: rgba( 255, 255, 255, 0.5 );
+}
+
+#register {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#register input {
+  margin: 15px 7px;
+  border-radius: 5px;
+  font-size: 25px;
 }
