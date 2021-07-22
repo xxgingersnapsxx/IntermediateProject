@@ -37,20 +37,19 @@ public class ProfileUploadServlet extends HttpServlet {
 
 		for (Part part : request.getParts()) {
 			fileName = extractFileName(part);
-			
+
 			if (!"".equals(fileName)) {
 				UploadDetail detail = new UploadDetail();
-				
+
 				detail.setFileName(fileName);
-				
-				detail.setFileSize((int) Math.ceil(part.getSize()/1024.0));
+
+				detail.setFileSize((int) Math.ceil(part.getSize() / 1024.0));
 			}
 		}
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 

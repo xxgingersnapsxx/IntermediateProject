@@ -18,7 +18,7 @@ public class MemberInsertServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
-		// form에서 입력한 데이터 받아오기
+
 		String memberId = request.getParameter("memberId");
 		String memberPw = request.getParameter("memberPw");
 		int cityCode = Integer.valueOf(request.getParameter("cityCode"));
@@ -36,27 +36,28 @@ public class MemberInsertServlet extends HttpServlet {
 		
 		// 받아온 데이터를 VO객체에 담기
 		MemberVO memvo = new MemberVO();
-		memvo.setMemberId(memberId);
-		memvo.setMemberPw(memberPw);
-		memvo.setCityCode(cityCode);
-		memvo.setMemberNm(memberNm);
-		memvo.setMemberBir(memberBir);
-		memvo.setMemberNm(memberNm);
-		memvo.setMemberBir(memberBir);
-		memvo.setMembmerMail(membmerMail);
-		memvo.setMemberHp(memberHp);
-		memvo.setMemberGen(memberGen);
-		memvo.setMemberImg1(memberImg1);
-		memvo.setMemberImg2(memberImg2);
-		memvo.setProfileIntro(profileIntro);
-		memvo.setMemberInsta(memberInsta);
-		memvo.setProfileMusic(profileMusic);
-		memvo.setMatchType(matchType);
+		memvo.setMember_id(memberId);
+		memvo.setMember_pw(memberPw);
+		memvo.setCity_code(cityCode);
+		memvo.setMember_nm(memberNm);
+		memvo.setMember_bir(memberBir);
+		memvo.setMember_nm(memberNm);
+		memvo.setMember_bir(memberBir);
+		memvo.setMembmer_mail(membmerMail);
+		memvo.setMember_hp(memberHp);
+		memvo.setMember_gen(memberGen);
+		memvo.setMember_img1(memberImg1);
+		memvo.setMember_img2(memberImg2);
+		memvo.setProfile_intro(profileIntro);
+		memvo.setMember_insta(memberInsta);
+		memvo.setProfile_music(profileMusic);
+		memvo.setMatch_type(matchType);
 		
 		IMemberService service = MemberServiceImpl.getInstance();
 		service.insertMember(memvo);  // DB에 insert하기
 		
-		// 회원 목록으로 이동하기
+		// 메인페이지로 이동하기
+		// TODO JISU : 아직 메인 페이지 없음
 		response.sendRedirect(request.getContextPath() + "/member/memberList.do");
 		
 	}
