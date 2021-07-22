@@ -23,4 +23,16 @@ public class MemberServiceImpl implements IMemberService {
 	public int insertMember(MemberVO memVo) {
 		return memDao.insertMember(memVo);
 	}
+
+	@Override
+	public MemberVO getMember(String memId) {
+		return memDao.getMember(memId);
+	}
+
+	@Override
+	public int loginMember(String memId) {
+		return memDao.loginMember(memId);
+	}
+	
+	
 }
