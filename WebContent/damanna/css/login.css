@@ -14,8 +14,8 @@ body {
 a {
   text-decoration: none;
 }
-
-#title { 
+/* 타이틀 */
+#title {  
   font-size: 60px;
   font-weight: bold;
   text-align: center;
